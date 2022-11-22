@@ -65,7 +65,7 @@ const ManageDoctor = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {
+                    { 
                         doctors.map((doctor, i) => <tr key={doctor._id}>
                             <th>{i + 1}</th>
                             <td><div className="avatar">
